@@ -25,8 +25,8 @@
 <div style="float:left;"><button style="background-color: lightskyblue"><a style="color: white" href="/products?action=create">+Add New Product</a></button></div>
 <div style="float: right" class="search-container">
     <form method="post">
-        <input type="text" placeholder="Search By Name" name="search">
-        <button style="background-color: lightskyblue" type="submit"><i class="fa fa-search">Search</i></button>
+        <input type="text" placeholder="Find By Name" name="search">
+        <button style="background-color: lightskyblue; color: white" type="submit">Search</button>
     </form>
 </div><br>
 
