@@ -1,14 +1,24 @@
-com/codegym/dao/IGeneralDAO.java
- com.codegym.dao.IGeneralDAO
 com/codegym/model/Category.java
  com.codegym.model.Category
-com/codegym/dao/product/ProductDAO.java
- com.codegym.dao.product.ProductDAO
-com/codegym/dao/product/IProductDAO.java
- com.codegym.dao.product.IProductDAO
-com/codegym/model/Product.java
- com.codegym.model.Product
+com/codegym/dao/ICategoryDAO.java
+ com.codegym.dao.ICategoryDAO
+com/codegym/service/IProductService.java
+ com.codegym.service.IProductService
+com/codegym/dao/CategoryDAO.java
+ com.codegym.dao.CategoryDAO
 com/codegym/dao/SQLConnection.java
  com.codegym.dao.SQLConnection
+com/codegym/service/ICategoryService.java
+ com.codegym.service.ICategoryService
+com/codegym/service/CategoryService.java
+ com.codegym.service.CategoryService
+com/codegym/model/Product.java
+ com.codegym.model.Product
+com/codegym/dao/IProductDAO.java
+ com.codegym.dao.IProductDAO
+com/codegym/service/ProductService.java
+ com.codegym.service.ProductService
+com/codegym/dao/ProductDAO.java
+ com.codegym.dao.ProductDAO
 com/codegym/controler/ProductServlet.java
  com.codegym.controler.ProductServlet

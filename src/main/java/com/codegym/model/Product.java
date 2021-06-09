@@ -1,24 +1,31 @@
 package com.codegym.model;
 
 public class Product {
-    private int id;
-    private String name;
-    private float price;
-    private int number;
-    private String color;
-    private String intro;
-    private int idCate;
+    int id;
+    String name;
+    int price;
+    int amount;
+    String detail;
+    int cat_id;
 
     public Product() {
     }
 
-    public Product(String name, float price, int number, String color, String intro, int idCate) {
+    public Product(String name, int price, int amount, String detail, int cat_id) {
         this.name = name;
         this.price = price;
-        this.number = number;
-        this.color = color;
-        this.intro = intro;
-        this.idCate = idCate;
+        this.amount = amount;
+        this.detail = detail;
+        this.cat_id = cat_id;
+    }
+
+    public Product(int id, String name, int price, int amount, String detail, int cat_id) {
+        this.id = id;
+        this.name = name;
+        this.price = price;
+        this.amount = amount;
+        this.detail = detail;
+        this.cat_id = cat_id;
     }
 
     public int getId() {
@@ -37,43 +44,35 @@ public class Product {
         this.name = name;
     }
 
-    public float getPrice() {
+    public int getPrice() {
         return price;
     }
 
-    public void setPrice(float price) {
+    public void setPrice(int price) {
         this.price = price;
     }
 
-    public int getNumber() {
-        return number;
+    public int getAmount() {
+        return amount;
     }
 
-    public void setNumber(int number) {
-        this.number = number;
+    public void setAmount(int amount) {
+        this.amount = amount;
     }
 
-    public String getColor() {
-        return color;
+    public String getDetail() {
+        return detail;
     }
 
-    public void setColor(String color) {
-        this.color = color;
+    public void setDetail(String detail) {
+        this.detail = detail;
     }
 
-    public String getIntro() {
-        return intro;
+    public int getCat_id() {
+        return cat_id;
     }
 
-    public void setIntro(String intro) {
-        this.intro = intro;
-    }
-
-    public int getIdCate() {
-        return idCate;
-    }
-
-    public void setIdCate(int idCate) {
-        this.idCate = idCate;
+    public void setCat_id(int cat_id) {
+        this.cat_id = cat_id;
     }
 }

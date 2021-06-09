@@ -1,29 +1,27 @@
 package com.codegym.model;
 
 public class Category {
-    private int idCate;
-    private String category;
+    int id;
+    String name;
 
-    public Category() {
+    public Category(int id, String name) {
+        this.id = id;
+        this.name = name;
     }
 
-    public Category(String category) {
-        this.category = category;
+    public int getId() {
+        return id;
     }
 
-    public int getIdCate() {
-        return idCate;
+    public void setId(int id) {
+        this.id = id;
     }
 
-    public void setIdCate(int idCate) {
-        this.idCate = idCate;
+    public String getName() {
+        return name;
     }
 
-    public String getCategory() {
-        return category;
-    }
-
-    public void setCategory(String category) {
-        this.category = category;
+    public void setName(String name) {
+        this.name = name;
     }
 }
